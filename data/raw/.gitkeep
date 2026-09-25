@@ -1,0 +1,2 @@
+# This directory stores raw, untouched datasets.
+# Add CSV/JSON files here; they are excluded from Git via .gitignore.

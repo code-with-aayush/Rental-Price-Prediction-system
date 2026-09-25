@@ -1,0 +1,47 @@
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ─────────────────────────
+.venv/
+venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── IDE ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Environment / secrets ────────────────────────
+.env
+.env.*
+
+# ── OS artefacts ──────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Data (large files — track with Git LFS or DVC)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.xlsx
+data/interim/*.csv
+data/processed/*.csv
+
+# ── Trained models (large binaries) ──────────────
+models/*.joblib
+models/*.pkl
+models/*.cbm
+
+# ── Logs ──────────────────────────────────────────
+*.log
+logs/
