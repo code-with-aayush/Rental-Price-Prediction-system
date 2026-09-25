@@ -181,3 +181,4 @@ This project is developed as a B.Tech final-year capstone. See [LICENSE](LICENSE
 ## Authors
 
 *Add team member names and roll numbers here.*
+aniket singh, aayush prabhakar, aditya varshnay
